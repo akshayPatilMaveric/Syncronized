@@ -3,11 +3,6 @@
 <suite name="Synchronization">
     <test name="Login1">
         <parameter name="Username" value="standard_user"/>
-        <classes>
-            <class name="org.example.test"/>
-        </classes>
-    </test>
-    <test name="Login2">
         <parameter name="Username" value="problem_user"/>
         <classes>
             <class name="org.example.test"/>
